@@ -22,7 +22,7 @@ public class Program {
 		DateTimeFormatter horaConvertida = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm").withZone(ZoneId.systemDefault());
 		
 		System.out.println("horário convertido: " + horaConvertida.format(d03));
-		System.out.println("horário de Londres: "+d03);
+		System.out.println("Bom dia... horário de Londres: "+d03);
 	
 	}
 
