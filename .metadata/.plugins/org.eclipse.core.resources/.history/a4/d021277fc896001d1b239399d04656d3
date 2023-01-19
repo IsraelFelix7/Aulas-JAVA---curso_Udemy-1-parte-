@@ -1,0 +1,37 @@
+package aplication;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String nomeRemovido = "joão";
+		
+		List<String> lista = new ArrayList<>();
+	
+		lista.add("joão");
+		lista.add("Maria");
+		lista.add("José");
+		lista.add("Jesus");
+		lista.add("Pedro");
+		
+		int c =0;
+		for(String mostrar: lista) {
+			c++;
+			System.out.println("Nome que está na "+c+"° posição da minha lista: " + mostrar);
+			System.out.println();
+		}
+		
+		System.out.print("Nome removido: " + lista.remove("Jesus"));
+		System.out.println("Nome removido: " +lista.remove(nomeRemovido));
+		System.out.println("tamanho da minha lista: "+lista.size());
+		
+		sc.close();
+	}
+
+}

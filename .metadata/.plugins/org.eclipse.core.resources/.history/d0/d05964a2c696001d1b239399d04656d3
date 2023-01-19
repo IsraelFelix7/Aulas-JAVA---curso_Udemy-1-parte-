@@ -1,0 +1,24 @@
+package aplication;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		List<String> lista = new ArrayList<>();
+	
+		lista.add("joão");
+		lista.add("Maria");
+		lista.add("José");
+		lista.add("Jesus");
+		lista.add("Pedro");
+		
+		for(String mostrar: lista) {
+			
+		}
+	
+	}
+
+}
