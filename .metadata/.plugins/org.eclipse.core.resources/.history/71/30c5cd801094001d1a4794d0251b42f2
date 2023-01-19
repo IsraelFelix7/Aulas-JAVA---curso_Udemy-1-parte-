@@ -1,0 +1,9 @@
+package entities;
+
+public class Pessoas {
+	
+	private double altura;
+	private int idade;
+	private String nome;
+
+}
